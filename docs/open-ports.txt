@@ -1,0 +1,6 @@
+Netid State  Recv-Q Send-Q      Local Address:Port Peer Address:PortProcess                                   
+udp   UNCONN 0      0           127.0.0.53%lo:53        0.0.0.0:*    users:(("systemd-resolve",pid=545,fd=13))
+udp   UNCONN 0      0      192.168.1.167%ens3:68        0.0.0.0:*    users:(("systemd-network",pid=543,fd=18))
+tcp   LISTEN 0      4096        127.0.0.53%lo:53        0.0.0.0:*    users:(("systemd-resolve",pid=545,fd=14))
+tcp   LISTEN 0      128               0.0.0.0:22        0.0.0.0:*    users:(("sshd",pid=763,fd=3))            
+tcp   LISTEN 0      128                  [::]:22           [::]:*    users:(("sshd",pid=763,fd=4))            
