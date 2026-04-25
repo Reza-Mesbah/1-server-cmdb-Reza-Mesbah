@@ -703,3 +703,8 @@ xz-utils -- 5.2.5-2ubuntu1
 zerofree -- 1.1.1-1build3
 zlib1g:amd64 -- 1:1.2.11.dfsg-2ubuntu9.2
 zstd -- 1.4.8+dfsg-3build1
+docker-buildx-plugin	0.33.0-1~ubuntu.22.04~jammy
+docker-ce	5:29.4.0-1~ubuntu.22.04~jammy
+docker-ce-cli	5:29.4.0-1~ubuntu.22.04~jammy
+docker-ce-rootless-extras	5:29.4.0-1~ubuntu.22.04~jammy
+docker-compose-plugin	5.1.1-1~ubuntu.22.04~jammy
