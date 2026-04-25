@@ -60,10 +60,15 @@ distro-info-data -- 0.52ubuntu0.11
 dmeventd -- 2:1.02.175-2.1ubuntu5
 dmidecode -- 3.3-3ubuntu0.2
 dmsetup -- 2:1.02.175-2.1ubuntu5
+docker-buildx-plugin	0.33.0-1~ubuntu.22.04~jammy
 docker-buildx-plugin -- 0.33.0-1~ubuntu.22.04~jammy
+docker-ce	5:29.4.0-1~ubuntu.22.04~jammy
 docker-ce -- 5:29.4.0-1~ubuntu.22.04~jammy
+docker-ce-cli	5:29.4.0-1~ubuntu.22.04~jammy
 docker-ce-cli -- 5:29.4.0-1~ubuntu.22.04~jammy
+docker-ce-rootless-extras	5:29.4.0-1~ubuntu.22.04~jammy
 docker-ce-rootless-extras -- 5:29.4.0-1~ubuntu.22.04~jammy
+docker-compose-plugin	5.1.1-1~ubuntu.22.04~jammy
 docker-compose-plugin -- 5.1.1-1~ubuntu.22.04~jammy
 dosfstools -- 4.2-1build3
 dpkg -- 1.21.1ubuntu2.6
@@ -144,9 +149,9 @@ libaio1:amd64 -- 0.3.112-13build1
 libapparmor1:amd64 -- 3.0.4-2ubuntu2.5
 libappstream4:amd64 -- 0.15.2-2
 libapr1:amd64 -- 1.7.0-8ubuntu0.22.04.2
-libaprutil1:amd64 -- 1.6.1-5ubuntu4.22.04.2
 libaprutil1-dbd-sqlite3:amd64 -- 1.6.1-5ubuntu4.22.04.2
 libaprutil1-ldap:amd64 -- 1.6.1-5ubuntu4.22.04.2
+libaprutil1:amd64 -- 1.6.1-5ubuntu4.22.04.2
 libapt-pkg6.0:amd64 -- 2.4.14
 libarchive13:amd64 -- 3.6.0-1ubuntu1.6
 libargon2-1:amd64 -- 0~20171227-0.3
@@ -176,8 +181,8 @@ libc-ares2:amd64 -- 1.18.1-1ubuntu0.22.04.3
 libc-bin -- 2.35-0ubuntu3.13
 libc6:amd64 -- 2.35-0ubuntu3.13
 libcap-ng0:amd64 -- 0.7.9-2.2build3
-libcap2:amd64 -- 1:2.44-1ubuntu0.22.04.3
 libcap2-bin -- 1:2.44-1ubuntu0.22.04.3
+libcap2:amd64 -- 1:2.44-1ubuntu0.22.04.3
 libcbor0.8:amd64 -- 0.8.0-2ubuntu1
 libcom-err2:amd64 -- 1.46.5-2ubuntu1.2
 libcommon-sense-perl:amd64 -- 3.75-2build1
@@ -322,8 +327,8 @@ libopeniscsiusr -- 2.1.5-1ubuntu1.1
 libp11-kit0:amd64 -- 0.24.0-6build1
 libpackagekit-glib2-18:amd64 -- 1.2.5-2ubuntu3.1
 libpam-cap:amd64 -- 1:2.44-1ubuntu0.22.04.3
-libpam-modules:amd64 -- 1.4.0-11ubuntu2.6
 libpam-modules-bin -- 1.4.0-11ubuntu2.6
+libpam-modules:amd64 -- 1.4.0-11ubuntu2.6
 libpam-runtime -- 1.4.0-11ubuntu2.6
 libpam-systemd:amd64 -- 249.11-0ubuntu3.19
 libpam0g:amd64 -- 1.4.0-11ubuntu2.6
@@ -345,16 +350,16 @@ libproc-processtable-perl:amd64 -- 0.634-1build1
 libprocps8:amd64 -- 2:3.3.17-6ubuntu2.1
 libpsl5:amd64 -- 0.21.0-1.2build2
 libpython3-stdlib:amd64 -- 3.10.6-1~22.04.1
-libpython3.10:amd64 -- 3.10.12-1~22.04.15
 libpython3.10-minimal:amd64 -- 3.10.12-1~22.04.15
 libpython3.10-stdlib:amd64 -- 3.10.12-1~22.04.15
+libpython3.10:amd64 -- 3.10.12-1~22.04.15
 libqmi-glib5:amd64 -- 1.32.0-1ubuntu0.22.04.1
 libqmi-proxy -- 1.32.0-1ubuntu0.22.04.1
 libreadline8:amd64 -- 8.1.2-1
 librtmp1:amd64 -- 2.4+20151223.gitfa8646d.1-2build4
 libsasl2-2:amd64 -- 2.1.27+dfsg2-3ubuntu1.2
-libsasl2-modules:amd64 -- 2.1.27+dfsg2-3ubuntu1.2
 libsasl2-modules-db:amd64 -- 2.1.27+dfsg2-3ubuntu1.2
+libsasl2-modules:amd64 -- 2.1.27+dfsg2-3ubuntu1.2
 libseccomp2:amd64 -- 2.5.3-2ubuntu3~22.04.1
 libselinux1:amd64 -- 3.3-1build2
 libsemanage-common -- 3.3-1build2
@@ -416,8 +421,8 @@ libxdmcp6:amd64 -- 1:1.1.3-0ubuntu5
 libxext6:amd64 -- 2:1.3.4-1build1
 libxml2:amd64 -- 2.9.13+dfsg-1ubuntu0.11
 libxmlb2:amd64 -- 0.3.6-2build1
-libxmlsec1:amd64 -- 1.2.33-1build2
 libxmlsec1-openssl:amd64 -- 1.2.33-1build2
+libxmlsec1:amd64 -- 1.2.33-1build2
 libxmuu1:amd64 -- 2:1.1.3-3
 libxpm4:amd64 -- 1:3.5.12-1ubuntu0.22.04.2
 libxslt1.1:amd64 -- 1.1.34-4ubuntu0.22.04.5
@@ -511,11 +516,17 @@ plymouth-theme-ubuntu-text -- 0.9.5+git20211018-1ubuntu3
 policykit-1 -- 0.105-33ubuntu0.1
 polkitd -- 0.105-33ubuntu0.1
 pollinate -- 4.33-3ubuntu2.3
+postgresql	14+238
 postgresql -- 14+238
+postgresql-14	14.22-0ubuntu0.22.04.1
 postgresql-14 -- 14.22-0ubuntu0.22.04.1
+postgresql-client-14	14.22-0ubuntu0.22.04.1
 postgresql-client-14 -- 14.22-0ubuntu0.22.04.1
+postgresql-client-common	238
 postgresql-client-common -- 238
+postgresql-common	238
 postgresql-common -- 238
+postgresql-contrib	14+238
 postgresql-contrib -- 14+238
 powermgmt-base -- 1.36ubuntu0.22.04.1
 procps -- 2:3.3.17-6ubuntu2.1
@@ -692,13 +703,3 @@ xz-utils -- 5.2.5-2ubuntu1
 zerofree -- 1.1.1-1build3
 zlib1g:amd64 -- 1:1.2.11.dfsg-2ubuntu9.2
 zstd -- 1.4.8+dfsg-3build1
-docker-buildx-plugin	0.33.0-1~ubuntu.22.04~jammy
-docker-ce	5:29.4.0-1~ubuntu.22.04~jammy
-docker-ce-cli	5:29.4.0-1~ubuntu.22.04~jammy
-docker-ce-rootless-extras	5:29.4.0-1~ubuntu.22.04~jammy
-docker-compose-plugin	5.1.1-1~ubuntu.22.04~jammy
-docker-buildx-plugin	0.33.0-1~ubuntu.22.04~jammy
-docker-ce	5:29.4.0-1~ubuntu.22.04~jammy
-docker-ce-cli	5:29.4.0-1~ubuntu.22.04~jammy
-docker-ce-rootless-extras	5:29.4.0-1~ubuntu.22.04~jammy
-docker-compose-plugin	5.1.1-1~ubuntu.22.04~jammy
