@@ -1,7 +1,7 @@
 #!/bin/bash
 
 TARGET=10
-BASEDIR=/opt/cmdb/servers/reza-server1-new
+BASEDIR=/opt/cmdb/servers/server01
 DOCBASE=/opt/cmdb/docs
 
 SALDO=1
