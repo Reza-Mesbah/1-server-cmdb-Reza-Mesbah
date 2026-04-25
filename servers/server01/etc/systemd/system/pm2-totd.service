@@ -1,0 +1,14 @@
+[Unit]
+Description=PM2 TotD App
+After=network.target
+
+[Service]
+Type=forking
+User=adminuser
+ExecStart=/usr/bin/pm2 start /home/adminuser/totd-app/app.js --name totd
+ExecReload=/usr/bin/pm2 reload totd
+ExecStop=/usr/bin/pm2 stop totd
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
