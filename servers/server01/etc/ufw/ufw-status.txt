@@ -1,0 +1,8 @@
+Status: active
+
+     To                         Action      From
+     --                         ------      ----
+[ 1] 22,80,443/tcp              ALLOW IN    86.50.22.88               
+[ 2] 22,80,443/tcp              ALLOW IN    193.166.164.0/24          
+[ 3] 22,80,443/tcp              ALLOW IN    193.167.140.0/24          
+

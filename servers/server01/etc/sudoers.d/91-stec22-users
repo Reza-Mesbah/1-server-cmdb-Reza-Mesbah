@@ -1,0 +1,5 @@
+# User rules for sam22 - allows ufw without password
+sam22 ALL=(ALL) NOPASSWD:/usr/sbin/ufw
+
+# User rules for adminuser
+adminuser ALL=(ALL) ALL

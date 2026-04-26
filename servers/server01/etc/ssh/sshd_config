@@ -1,0 +1,67 @@
+# SSH Server Configuration - Secure Configuration
+# Only key-based authentication, no passwords
+
+Include /etc/ssh/sshd_config.d/*.conf
+
+# Network
+Port 22
+AddressFamily any
+ListenAddress 0.0.0.0
+ListenAddress ::
+
+# Host Keys
+HostKey /etc/ssh/ssh_host_rsa_key
+HostKey /etc/ssh/ssh_host_ecdsa_key
+HostKey /etc/ssh/ssh_host_ed25519_key
+
+# Authentication Settings
+# Disable password authentication - KEYS ONLY!
+PasswordAuthentication no
+PubkeyAuthentication yes
+ChallengeResponseAuthentication no
+PermitEmptyPasswords no
+
+# PAM Authentication
+UsePAM no
+
+# Login Settings
+LoginGraceTime 2m
+PermitRootLogin no
+StrictModes yes
+MaxAuthTries 6
+MaxSessions 10
+
+# Authorized Keys Location
+AuthorizedKeysFile .ssh/authorized_keys
+
+# Disable host-based authentication
+HostbasedAuthentication no
+IgnoreRhosts yes
+
+# Allow specific users only (ADD OTHER STUDENT USERNAMES HERE)
+# Format: AllowUsers username1 username2 username3
+AllowUsers ubuntu hao loc tomas ivan sam22 adminuser myadmin
+
+# X11 Forwarding
+X11Forwarding yes
+X11DisplayOffset 10
+X11UseLocalhost yes
+
+# Motd and Banner
+PrintMotd no
+PrintLastLog yes
+
+# Keep Alive
+TCPKeepAlive yes
+ClientAliveInterval 60
+ClientAliveCountMax 3
+
+# Logging
+SyslogFacility AUTH
+LogLevel DEBUG3
+
+# SFTP Subsystem
+Subsystem sftp /usr/lib/openssh/sftp-server
+
+# Environment
+AcceptEnv LANG LC_*
