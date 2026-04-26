@@ -4,10 +4,9 @@ After=network.target
 
 [Service]
 Type=forking
-User=adminuser
-ExecStart=/usr/bin/pm2 start
-ExecReload=/usr/bin/pm2 reload
-ExecStop=/usr/bin/pm2 stop
+ExecStart=/usr/bin/pm2 start /home/adminuser/totd-app/app.js --name totd
+ExecStop=/usr/bin/pm2 stop totd
+ExecReload=/usr/bin/pm2 reload totd
 Restart=on-failure
 
 [Install]

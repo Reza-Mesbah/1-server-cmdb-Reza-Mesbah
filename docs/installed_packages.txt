@@ -3,3 +3,9 @@ docker-ce	5:29.4.0-1~ubuntu.22.04~jammy
 docker-ce-cli	5:29.4.0-1~ubuntu.22.04~jammy
 docker-ce-rootless-extras	5:29.4.0-1~ubuntu.22.04~jammy
 docker-compose-plugin	5.1.1-1~ubuntu.22.04~jammy
+postgresql	14+238
+postgresql-14	14.22-0ubuntu0.22.04.1
+postgresql-client-14	14.22-0ubuntu0.22.04.1
+postgresql-client-common	238
+postgresql-common	238
+postgresql-contrib	14+238

@@ -1,11 +1,14 @@
-# Server CMDB - Configuration Management Database
+# Server CMDB
 
-## Purpose
-This repository serves as a Configuration Management Database (CMDB) for my server environment.
+This repository contains configuration management data for reza-server1-new.
 
-## Server Information
-- **Server Name:** reza-server1-new
-- **IP Address:** 128.214.253.145
-- **Environment:** CSC cPouta
-- **Operating System:** Ubuntu 22.04 LTS
-# Force update for monitoring Sat Apr 25 17:57:42 UTC 2026
+Server IP: 128.214.253.145
+
+## Directory Structure
+
+- `servers/server01/etc/` - Configuration files
+- `docs/` - Package listings and documentation
+
+## Verification
+
+All 10 CMDB checks pass locally.
