@@ -692,3 +692,4 @@ xz-utils -- 5.2.5-2ubuntu1
 zerofree -- 1.1.1-1build3
 zlib1g:amd64 -- 1:1.2.11.dfsg-2ubuntu9.2
 zstd -- 1.4.8+dfsg-3build1
+docker-ce

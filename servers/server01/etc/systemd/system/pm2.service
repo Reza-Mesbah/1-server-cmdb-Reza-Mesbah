@@ -1,13 +1,1 @@
-[Unit]
-Description=PM2 process manager
-After=network.target
-
-[Service]
-Type=forking
-ExecStart=/usr/bin/pm2 start /home/adminuser/totd-app/app.js --name totd
-ExecStop=/usr/bin/pm2 stop totd
-ExecReload=/usr/bin/pm2 reload totd
-Restart=on-failure
-
-[Install]
-WantedBy=multi-user.target
+ExecStart=/usr/bin/pm2
